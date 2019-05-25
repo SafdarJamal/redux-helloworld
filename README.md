@@ -2,7 +2,9 @@
 
 This is a simple React app with the sole aim of being refactored to use Redux. Pretty basic stuff. Ideal for Absolute Redux beginners.
 
-![Hello Redux](./src/images/screenshot.png)
+<p align="center">
+  <img src="./src/images/screenshot.png" width="650" alt='Redux in Action'>
+</p>
 
 ## Directions
 
