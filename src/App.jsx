@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import HelloWorld from './HelloWorld.jsx';
 
+import { createStore } from 'redux';
+const store = createStore();
+
 class App extends Component {
   // the state object has been removed.
 
