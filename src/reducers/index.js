@@ -1,16 +1,17 @@
 function reducer(state, action) {
-  // switch (action.type) {
-  //   case 'withdraw_money':
-  //     // do something
-  //     break;
-  //   case 'deposit-money':
-  //     // do something
-  //     break;
-  //   default:
-  //     return state;
-  // }
-  console.log(action);
-  return state;
+  switch (action.type) {
+    case 'SET_TECHNOLOGY':
+      return {
+        ...state,
+        tech: action.text
+      };
+
+    default:
+      return state;
+  }
+
+  // console.log(action);
+  // return state;
 }
 
 export default reducer;
