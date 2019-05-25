@@ -6,6 +6,15 @@ class App extends Component {
     tech: 'React'
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ tech: 'Redux' });
+      console.log('State updated');
+    }, 3000);
+
+    console.log('Mounted');
+  }
+
   render() {
     return <HelloWorld tech={this.state.tech} />;
   }
