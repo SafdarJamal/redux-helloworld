@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import HelloWorld from './HelloWorld.jsx';
-
+import reducer from './reducers/index';
 import { createStore } from 'redux';
-const store = createStore();
+
+const initialState = {
+  tech: 'React'
+};
+const store = createStore(reducer, initialState);
 
 class App extends Component {
-  // the state object has been removed.
-
   render() {
-    return <HelloWorld tech={this.state.tech} />;
+    return <HelloWorld tech={store.getState().tech} />;
   }
 }
 
