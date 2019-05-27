@@ -5,7 +5,6 @@ function reducer(state, action) {
         ...state,
         tech: action.text
       };
-
     default:
       return state;
   }

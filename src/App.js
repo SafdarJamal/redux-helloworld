@@ -5,6 +5,8 @@ import { store } from './store';
 
 class App extends Component {
   render() {
+    // console.log(store.getState());
+
     return [
       <HelloWorld key={1} tech={store.getState().tech} />,
       <ButtonGroup key={2} technologies={['React', 'Elm', 'React-redux']} />
