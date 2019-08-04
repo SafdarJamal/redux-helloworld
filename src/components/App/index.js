@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import HelloWorld from '../HelloWorld/HelloWorld';
-import ButtonGroup from '../../ButtonGroup';
 import { store } from '../../store';
+
+import HelloWorld from '../HelloWorld';
+import ButtonGroup from '../ButtonGroup';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
 
     return [
       <HelloWorld key={1} tech={store.getState().tech} />,
-      <ButtonGroup key={2} technologies={['React', 'Elm', 'React-redux']} />
+      <ButtonGroup key={2} technologies={['React', 'Redux', 'React-Redux']} />
     ];
   }
 }

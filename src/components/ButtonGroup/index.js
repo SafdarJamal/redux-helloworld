@@ -1,6 +1,6 @@
 import React from 'react';
-import { store } from './store';
-import { setTechnology } from './actions';
+import { store } from '../../store';
+import { setTechnology } from '../../actions';
 
 const ButtonGroup = ({ technologies }) => (
   <div>
