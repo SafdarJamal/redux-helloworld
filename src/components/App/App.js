@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import HelloWorld from './HelloWorld';
-import ButtonGroup from './ButtonGroup';
-import { store } from './store';
+import HelloWorld from '../HelloWorld/HelloWorld';
+import ButtonGroup from '../../ButtonGroup';
+import { store } from '../../store';
 
 class App extends Component {
   render() {
