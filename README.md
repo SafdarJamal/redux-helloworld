@@ -3,7 +3,7 @@
 This is a simple React app with the sole aim of being refactored to use Redux. Pretty basic stuff. Ideal for Absolute Redux beginners.
 
 <p align="center">
-  <img src="./public/screenshot.jpg" width="650" alt='Redux in Action'>
+  <img src="./screenshot.jpg" width="650" alt='Redux in Action'>
 </p>
 
 ## Directions
