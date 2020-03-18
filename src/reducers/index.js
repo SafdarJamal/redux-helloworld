@@ -1,4 +1,4 @@
-function reducer(state, action) {
+const reducer = (state, action) => {
   switch (action.type) {
     case 'SET_TECHNOLOGY':
       return {
@@ -8,9 +8,6 @@ function reducer(state, action) {
     default:
       return state;
   }
-
-  // console.log(action);
-  // return state;
-}
+};
 
 export default reducer;

@@ -1,8 +1,8 @@
 import React from 'react';
-import { store } from '../../store';
+import { store } from '../store';
 
-import HelloWorld from '../HelloWorld';
-import ButtonGroup from '../ButtonGroup';
+import HelloWorld from './HelloWorld';
+import ButtonGroup from './ButtonGroup';
 
 const App = () => {
   // console.log(store.getState());
